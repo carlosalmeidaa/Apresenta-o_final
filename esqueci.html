@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Recuperar Senha</title>
+    <link rel="stylesheet" href="esqueci.css">
+</head>
+<header>
+    <section id="landing__area" class="container__center">
+      <nav class="center__row">
+        <h1 class="logo">PetsPIT</h1>
+        <ul class="center__row">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Dogsperdidos.php">Encontre seu pet</a></li>
+          <li><a href="esqueci.html">Esqueci minha senha</a></li>
+          <li><a href="exclusao.html">Excluir cadastro</a></li>
+          <li><a href="atualizacao.html">Atualizar dados</a></li>
+          <li><a href="cadastro.php">Cadastrar-se</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+<body>
+    <div class="container">
+        <h1>Recuperar Senha</h1>
+        <form action="recuperar_senha.php" method="POST">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit">Recuperar</button>
+        </form>
+    </div>
+</body>
+</html>
